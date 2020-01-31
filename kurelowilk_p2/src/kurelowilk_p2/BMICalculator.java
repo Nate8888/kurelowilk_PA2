@@ -2,13 +2,6 @@ package kurelowilk_p2;
 import java.util.Scanner;
 
 public class BMICalculator {
-
-	public static void main(String[] args) {
-	    BMICalculator app = new BMICalculator();
-	    app.readUserData();
-	    app.calculateBmi();
-	    app.displayBmi();
-	}
 	
 	private Scanner sc = new Scanner(System.in);
 	
